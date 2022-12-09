@@ -14,7 +14,7 @@ var data = text.Split(" ")
 for (int i = 0; i < data.Length; i++)
 {
     Console.WriteLine(data[i]); // in such case rn will be printed (1,2) (2,3) (4,5) (6,7). if (data[i].x*10), so it will be 10 20 40 60 (without "y" one).
-    // 4 string below is for print data[] before select with parses (str №11)
+    // 4 strings below is for print data[] before select with parses (str №9)
     // for (int k = 0; k < data[i].Length; k++)
     // {
     //     Console.WriteLine(data[i][k]);
